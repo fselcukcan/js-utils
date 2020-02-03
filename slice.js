@@ -1,6 +1,6 @@
 // Implements JavaScript slice() function in an imperative way
 
-module.exports = function slice(a, s, e) {
+export default function slice(a, s, e) {
     if (e > a.length) { e = a.length; }
     let sliced_a = [];
     if (e < s) {return sliced_a;}
