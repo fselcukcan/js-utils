@@ -1,4 +1,4 @@
-function filterObject(o, filterFunc, initialAccumulator = {}) {
+export default function filterObject(o, filterFunc, initialAccumulator = {}) {
     return Object.entries(o)
         .filter(([key, value], indexInEntriesArray, entriesArray) => filterFunc(key, value, indexInEntriesArray, entriesArray))
         .reduce((acc, [key, value]) => ({ ...acc, [key]: value }), initialAccumulator);
