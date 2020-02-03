@@ -1,1 +1,3 @@
 # jeutil
+
+Utilities for JavaScript
