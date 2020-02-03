@@ -1,6 +1,6 @@
 // gives an array of arrays of the boundary positions of the elemensts of an array as if they were in a join()ed string
 // same as posit.js, only imperative
-module.exports = function positions(a) {
+export default function positions(a) {
     let pos = [];
     for(let i = 0; i < a.length; i ++) {
 	// calculate the length of prev elements in each iter
