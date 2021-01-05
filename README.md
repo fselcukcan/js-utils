@@ -1,3 +1,3 @@
-# jeutil
+# util
 
 Utilities for JavaScript
